@@ -1,0 +1,310 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		88743C871BF5126200BFB109 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88743C861BF5126200BFB109 /* AppDelegate.swift */; };
+		88743C891BF5126200BFB109 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88743C881BF5126200BFB109 /* ViewController.swift */; };
+		88743C8C1BF5126200BFB109 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88743C8A1BF5126200BFB109 /* Main.storyboard */; };
+		88743C8F1BF5126200BFB109 /* Recipez.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 88743C8D1BF5126200BFB109 /* Recipez.xcdatamodeld */; };
+		88743C911BF5126300BFB109 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88743C901BF5126300BFB109 /* Assets.xcassets */; };
+		88743C941BF5126300BFB109 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88743C921BF5126300BFB109 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		88743C831BF5126100BFB109 /* Recipez.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Recipez.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		88743C861BF5126200BFB109 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		88743C881BF5126200BFB109 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		88743C8B1BF5126200BFB109 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		88743C8E1BF5126200BFB109 /* Recipez.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Recipez.xcdatamodel; sourceTree = "<group>"; };
+		88743C901BF5126300BFB109 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		88743C931BF5126300BFB109 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		88743C951BF5126300BFB109 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		88743C801BF5126100BFB109 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		88743C7A1BF5126000BFB109 = {
+			isa = PBXGroup;
+			children = (
+				88743C851BF5126100BFB109 /* Recipez */,
+				88743C841BF5126100BFB109 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		88743C841BF5126100BFB109 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				88743C831BF5126100BFB109 /* Recipez.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		88743C851BF5126100BFB109 /* Recipez */ = {
+			isa = PBXGroup;
+			children = (
+				88743C861BF5126200BFB109 /* AppDelegate.swift */,
+				88743C881BF5126200BFB109 /* ViewController.swift */,
+				88743C8A1BF5126200BFB109 /* Main.storyboard */,
+				88743C901BF5126300BFB109 /* Assets.xcassets */,
+				88743C921BF5126300BFB109 /* LaunchScreen.storyboard */,
+				88743C951BF5126300BFB109 /* Info.plist */,
+				88743C8D1BF5126200BFB109 /* Recipez.xcdatamodeld */,
+			);
+			path = Recipez;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		88743C821BF5126100BFB109 /* Recipez */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88743C981BF5126300BFB109 /* Build configuration list for PBXNativeTarget "Recipez" */;
+			buildPhases = (
+				88743C7F1BF5126100BFB109 /* Sources */,
+				88743C801BF5126100BFB109 /* Frameworks */,
+				88743C811BF5126100BFB109 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Recipez;
+			productName = Recipez;
+			productReference = 88743C831BF5126100BFB109 /* Recipez.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		88743C7B1BF5126000BFB109 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Bryan Ebert";
+				TargetAttributes = {
+					88743C821BF5126100BFB109 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = 88743C7E1BF5126100BFB109 /* Build configuration list for PBXProject "Recipez" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 88743C7A1BF5126000BFB109;
+			productRefGroup = 88743C841BF5126100BFB109 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				88743C821BF5126100BFB109 /* Recipez */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		88743C811BF5126100BFB109 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88743C941BF5126300BFB109 /* LaunchScreen.storyboard in Resources */,
+				88743C911BF5126300BFB109 /* Assets.xcassets in Resources */,
+				88743C8C1BF5126200BFB109 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		88743C7F1BF5126100BFB109 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88743C891BF5126200BFB109 /* ViewController.swift in Sources */,
+				88743C871BF5126200BFB109 /* AppDelegate.swift in Sources */,
+				88743C8F1BF5126200BFB109 /* Recipez.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		88743C8A1BF5126200BFB109 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88743C8B1BF5126200BFB109 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		88743C921BF5126300BFB109 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88743C931BF5126300BFB109 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		88743C961BF5126300BFB109 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		88743C971BF5126300BFB109 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		88743C991BF5126300BFB109 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Recipez/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bryanebert.Recipez;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		88743C9A1BF5126300BFB109 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Recipez/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bryanebert.Recipez;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		88743C7E1BF5126100BFB109 /* Build configuration list for PBXProject "Recipez" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88743C961BF5126300BFB109 /* Debug */,
+				88743C971BF5126300BFB109 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88743C981BF5126300BFB109 /* Build configuration list for PBXNativeTarget "Recipez" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88743C991BF5126300BFB109 /* Debug */,
+				88743C9A1BF5126300BFB109 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		88743C8D1BF5126200BFB109 /* Recipez.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				88743C8E1BF5126200BFB109 /* Recipez.xcdatamodel */,
+			);
+			currentVersion = 88743C8E1BF5126200BFB109 /* Recipez.xcdatamodel */;
+			path = Recipez.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 88743C7B1BF5126000BFB109 /* Project object */;
+}
